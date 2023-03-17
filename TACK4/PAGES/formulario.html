@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Olympus Gym - Home</title>
+     <link rel="stylesheet" href="/TACK4/styles/style.css">
+     <link rel="icon" type="image/png" href="/TACK4/IMG/logo.png">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-qZxqmk4Q4s4j+yDsk2QmrJNbkXe1tw7N1/wso0UdZ6BtzN6z0e6lHnE01eKFvL68o9nrxlL/sLvH5QZo5x5b5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+     <header>
+          <nav>
+               <div class="botones-header">
+                    <a href="/home.html">HOME</a>
+                    <a href="./TACK3/PAGES/aboutus.html">ABOUT US</a>
+                    <a href="./TACK3/PAGES/contact.html">CONTACT</a>
+                    <a href="/TACK3/PAGES/schedule.html">SCHEDULE</a>
+                    <a href="/TACK3/PAGES/benefits.html">BENEFITS</a>
+                    <a href="/TACK4/PAGES/formulario.html">REGISTRE</a>
+               </div>
+               <img src="/TACK4/IMG/logo.png" alt="logo" class="img-logo">
+          </nav>
+     </header>
+     <main class="fondo-formulario">
+          <section class="section-h-p">
+               <h1 class="section4-h1">Raffle</h1>
+               <p class="section4-p" >Every month in this section you can participate in a raffle.</p>
+          </section>
+          <div class="todo-formulario">
+          <form action="/TACK4/PAGES/show_data.html" method="get" class="my-form">
+               <fieldset>
+                    <legend>participate in our raffle for a month of pesonalized training</legend>
+                    <label for="firs-name">Firs Name</label>
+                    <input type="text" id="firs-name" name="name">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last">
+                    <label for=" email">Email</label>
+                    <input type="email" id="email" name="Mail">
+               <div class="genero-pais">
+                    <select name="genero" id="genero" >
+                         <option value="">Choose Your Gender</option>
+                         <option value="male">Male</option>
+                         <option value="female">Female</option>
+                         <option value="no-binari">Non-binary</option>
+                         <option value="no-say">Prefer not to say</option>
+                    </select>
+                    <select name="countrys" id="countrys">
+                         <option value="">Country</option>
+                         <option value="argentina">Argentina</option>
+                         <option value="bolivia">bolivia</option>
+                         <option value="brasil">brasil</option>
+                         <option value="chile">chile</option>
+                         <option value="colombia">colombia</option>
+                    </select>
+               </div>
+                    <div class="metodo-pago">
+                         <label for="option1">Cash</label>
+                         <input type="radio" id="option1" name="option">
+                         <label for="option2">Credit Cards</label>
+                         <input type="radio" id="option2" name="option">
+                         <label for="option3">Debit Cards</label>
+                         <input type="radio" id="option3" name="option">
+                    </div>
+               <div class="cuadro">
+                    <label for="comment">Commets</label>
+                    <textarea id="comment" name="comment" ></textarea>
+               </div>
+                    <label for="condition">I accept terms and conditions</label>
+                    <input type="checkbox" id="condition" name="conditions">
+                    <div><input type="submit" value="Send">
+                    </div>
+               </fieldset>
+          </form>
+     </div>
+     </main>
+     <footer>
+          <div class="footer-content">
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="name">
+              <h2>JAVB</h2>
+            </div>
+          </div>
+     </footer>
+</body>
+
+</html>
